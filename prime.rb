@@ -1,4 +1,5 @@
-array = [-2, -1, 0, 1, 2] 
-def prime?(integer)
-  
+def prime(n)
+  return false if n < 2
+
+  (2..n/2).none?{|i| n % i == 0}
 end
