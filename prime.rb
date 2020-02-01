@@ -1,3 +1,4 @@
 def prime?(array)
-  array.
+  array. select do |n|
+    
 end
