@@ -1,3 +1,3 @@
 def prime?(array)
-  prime?
+  array.
 end
